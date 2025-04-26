@@ -1,0 +1,4 @@
+This project implements a Triple-DES (3DES) encryption and decryption utility in C, called tcrypt. It can securely encrypt and decrypt binary files using a 24-byte key, applying the DES algorithm three times with different key segments for improved security. The project includes custom modules for bit manipulation, block encryption, file I/O, and subkey generation. It uses PKCS#5 padding for input files to ensure block alignment and supports both encryption and decryption through command-line arguments.
+A unit testing suite is provided to validate internal components, and a Makefile is used for automated building and testing. The project emphasizes memory safety, clean modular design, and adherence to DES bit-indexing conventions.
+
+This was used as a guide to implement the algorithm: https://page.math.tu-berlin.de/~kant/teaching/hess/krypto-ws2006/des.htm
